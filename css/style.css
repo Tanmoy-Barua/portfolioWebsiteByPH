@@ -121,6 +121,9 @@ main{
     max-width: 1140px;
     margin: 0 auto;
 }
+main section{
+    margin-top: 130px;
+}
 /* about section */
 .about-section{
     padding: 130px;
@@ -183,4 +186,13 @@ main{
     font-style: normal;
     font-weight: 400;
     line-height: 28px;
+}
+
+/* resume part start */
+.resume-title{
+    color:#474747;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
 }
