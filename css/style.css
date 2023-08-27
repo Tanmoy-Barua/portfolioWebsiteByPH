@@ -15,12 +15,21 @@ a{
 .primary-button{
     background-color: var(--primary-color);
     border-radius: 5px;
+    border: 0;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    color: white;
+    padding: 15px 35px;
 }
 
 /* mavigation style start */
 
 nav{
     display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 nav h3{
     font-style: normal;
@@ -33,6 +42,7 @@ nav h3 span{
 
 nav > ul{
     display: flex;
+    align-items: center;
 }
 
 nav ul > li{
