@@ -196,3 +196,99 @@ main section{
     font-weight: 700;
     line-height: normal;
 }
+.resume-container{
+    margin-top: 50px;
+    display: flex;
+    gap: 50px;
+}
+.resume-item-title{
+    color: #474747;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-top: 30px;
+}
+.resume-institute-name{
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin: 10px 0 20px;
+}
+.resume-item-des{
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px; /* 175% */
+    padding-bottom: 30px;
+}
+.resume-institute-name,.resume-item-des{
+    color: #757575;
+}
+.download-cv{
+    text-align: center;
+    margin: 50px 0;
+}
+
+/* footer start */
+footer{
+    background-color:#FFF8F3;
+    padding: 130px 0;
+}
+
+.footer-container{
+    max-width: 1140px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-col{
+    max-width: 550px;
+}
+
+.footer-title{
+    color: #181818;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.footer-des{
+    color: #474747;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+    margin: 20px 0 30px;
+}
+.footer-social-media{
+    display: flex;
+}
+.footer-social-media li:nth-child(2){
+    margin: 0 24px;
+}
+
+.footer-social-media li a{
+    color: var(--primary-color);
+}
+.form-container{
+    display: flex;
+    flex-direction: column;
+    margin-top: 28px;
+}
+
+form input:last-of-type{
+    margin: 24px 0;
+}
+
+form input, textarea{
+    font-family: 'Open Sans', sans-serif;
+    padding: 18px;
+    border: 0;
+    border-radius: 5px;
+}
+textarea {
+    margin-bottom: 24px;
+}
